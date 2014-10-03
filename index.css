@@ -1,0 +1,37 @@
+body {
+  line-height: 1.5;
+  background-color: rgb(244, 243, 236);
+  color: rgb(94, 92, 79);
+}
+
+.cover {
+  display: flex;
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  /*justify-content: center;*/
+  /*align-items: center;*/
+
+  /*flex-direction: column;*/
+}
+
+.label {
+  /*flex: 0 0 auto;*/
+  /*text-align: center;*/
+}
+
+.title,
+.artist {
+  margin: 0;
+}
+
+.title {
+  font-size: 300%;
+}
+.artist {
+  font-size: 150%;
+}
